@@ -1,6 +1,7 @@
 # MATH-MAGICIANS PROJECT
 
-> This is a project being built in the second module of curriculum at microverse. it's an application that uses the Leaderboard API to update name and scores of users
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 Click [here]() to see deployed live version
 
@@ -11,8 +12,6 @@ Click [here]() to see deployed live version
 
 ## Built With
 
-- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
-- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 - Webpack
@@ -35,12 +34,6 @@ The basic requirements for building the executable are:
 git clone  <https://github.com/d2ndjim/LeaderBoard.git>
 ```
 
-## Getting started with Webpack
-
-```
-npm install webpack webpack-cli --save-dev
-```
-
 ## Getting packages and debuging with Stylelint
 
 ```
@@ -53,7 +46,30 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 npx stylelint "**/*.{css,scss}"
 ```
 
-##### from parent source directory
+##### from parent source directory RUN
+
+```
+npm start"
+```
+> Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+##### from parent source directory RUN
+
+```
+npm build"
+```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 
 ## Getting packages and debuging with ESlint
 
@@ -75,22 +91,6 @@ npx eslint .
 npm init -y
 npm install --save-dev hint@6.x
 ```
-
-##### For validation detection using Webhint, Run
-
-```
-npx hint .
-```
-
-##### To Compile and See a live Version,  Run
-```
-npm run build 
-```
-```
-npm start
-```
-##### from parent source directory
-
 ## License
 
 All source code files are licensed under the permissive zlib license
