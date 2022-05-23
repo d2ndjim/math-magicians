@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# MATH-MAGICIANS PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is a project being built in the second module of curriculum at microverse. it's an application that uses the Leaderboard API to update name and scores of users
 
-## Available Scripts
+Click [here]() to see deployed live version
 
-In the project directory, you can run:
+### Features implemented so far are:
 
-### `npm start`
+- Responsive HTML page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+- Webpack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The basic requirements for building the executable are:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Getting Started
 
-### `npm run eject`
+#### Cloning the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone  <https://github.com/d2ndjim/LeaderBoard.git>
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting started with Webpack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install webpack webpack-cli --save-dev
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting packages and debuging with Stylelint
 
-## Learn More
+```
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##### For validation detection using Stylelint Run
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npx stylelint "**/*.{css,scss}"
+```
 
-### Code Splitting
+##### from parent source directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Getting packages and debuging with ESlint
 
-### Analyzing the Bundle Size
+```
+npm install npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##### For validation detection using Stylelint Run
 
-### Making a Progressive Web App
+```
+npx eslint .
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##### from parent source directory
 
-### Advanced Configuration
+## Getting packages and debuging with Webhint
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+npm init -y
+npm install --save-dev hint@6.x
+```
 
-### Deployment
+##### For validation detection using Webhint, Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+npx hint .
+```
 
-### `npm run build` fails to minify
+##### To Compile and See a live Version,  Run
+```
+npm run build 
+```
+```
+npm start
+```
+##### from parent source directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+All source code files are licensed under the permissive zlib license
+(http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
+
+## Author
+👤 **Lekan Jimoh**
+
+- GitHub: [d2ndjim]https://github.com/d2ndjim)
+- Twitter: [d2ndjim_](https://twitter.com/d2ndjim_)
+- LinkedIn: [Lekan](https://linkedin.com/in/lekanj)
