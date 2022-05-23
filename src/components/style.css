@@ -14,7 +14,7 @@ section {
   grid-template: repeat(6, auto) / repeat(4, 1fr);
   gap: 1px;
   width: 50%;
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 #result {
