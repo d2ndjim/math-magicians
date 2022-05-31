@@ -96,3 +96,7 @@ section {
   box-shadow: 10px 10px 5px black;
   padding: 20px;
 }
+
+.calculator-text {
+  font-size: 30px;
+}

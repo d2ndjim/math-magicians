@@ -19,6 +19,7 @@ function Calculator() {
 
   return (
     <>
+      <h4 className="calculator-text">Lets do some Math!</h4>
       <section>
         <div className="btn-rows">
           <div id="result" className="grid-item">
