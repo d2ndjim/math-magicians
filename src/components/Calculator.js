@@ -14,9 +14,9 @@ class Calculator extends React.Component {
   }
 
   handleClick(e) {
-    this.setState((state) => ({
-      ...state,
-      ...calculate(state, e.target.name),
+    this.setState((prevState) => ({
+      ...prevState,
+      ...calculate(prevState, e.target.name),
     }));
   }
 
