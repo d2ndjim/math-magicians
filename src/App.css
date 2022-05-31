@@ -1,27 +1,98 @@
-body {
+* {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.App {
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-rows {
+  display: grid;
+  grid-template: repeat(6, auto) / repeat(4, 1fr);
+  gap: 1px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+#result {
+  grid-column: 1 / span 4;
+  background-color: grey;
+  text-align: end;
+  color: white;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+.grid-item {
+  padding: 15px;
+  background-color: gainsboro;
+  border: 1px solid grey;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #6610f2;
+  color: white;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links:hover {
+  color: greenyellow;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.home-header {
+  margin: 25px 0;
+}
+
+.home p {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 30px;
+}
+
+.quote {
+  font-size: 30px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px black;
+  padding: 20px;
 }

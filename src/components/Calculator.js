@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import NavBar from './NavBar';
-import './style.css';
 
 function Calculator() {
   const [state, setState] = useState({
@@ -21,7 +19,6 @@ function Calculator() {
 
   return (
     <>
-      <NavBar />
       <section>
         <div className="btn-rows">
           <div id="result" className="grid-item">
