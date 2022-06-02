@@ -35,7 +35,7 @@ The basic requirements for building the executable are:
 #### Cloning the project
 
 ```
-git clone  <https://github.com/d2ndjim/LeaderBoard.git>
+git clone  <https://github.com/d2ndjim/math-magicians.git>
 ```
 
 ## Getting packages and debuging with Stylelint
