@@ -3,7 +3,11 @@
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-Click [here]() to see deployed live version
+### To see deployed live version, Click links below
+
+### [Netlify](https://d2ndjim-math-magicians.netlify.app/)
+
+
 
 ### Features implemented so far are:
 
