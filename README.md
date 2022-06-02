@@ -5,7 +5,7 @@
 
 ### To see deployed live version, Click links below
 
-### [Netlify](https://d2ndjim-math-magicians.netlify.app/)
+### [Netlify](https://d2ndjim-math-magicians.netlify.app/)  [Heroku](https://d2ndjim-math-magicians.herokuapp.com/)
 
 
 
